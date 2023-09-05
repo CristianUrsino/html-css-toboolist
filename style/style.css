@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-color: rgb(103, 106, 108);
+}
+header,main{
+    background-color: white;
+}
+/* colori */
+.text-light-gray{
+    color: rgb(240, 242, 243);
+}
+.text-white{
+    color: white;
+}
+.bg-blue{
+    background-color:rgb(71, 173, 241) ;
+}
+.bg-green{
+    background-color: rgb(100, 192, 169);
+}
+.bg-violet{
+    background-color: rgb(156, 114, 228);
+}
+.bg-orange{
+    background-color: rgb(242, 158, 51);
+}
+.bg-magenta{
+    background-color: rgb(216, 99, 161);
+}
+.bg-yellow-green{
+    background-color: rgb(176, 201, 38);
+}
+/* display  */
+.inline-block{
+    display: inline-block;
+}
+/* inizio header  */
+header,nav{
+    padding: 15px;
+}
+header{
+    margin-bottom: 50px;
+}
+.title{
+    vertical-align: top; 
+}
+/* inizio main  */
+main{
+    width: 80%;
+    margin: auto;
+}
+main nav button{
+
+}
