@@ -12,7 +12,7 @@ header,main{
 }
 /* colori */
 .text-light-gray{
-    color: rgb(240, 242, 243);
+    color:rgb(176, 176, 176);
 }
 .text-white{
     color: white;
@@ -40,10 +40,8 @@ header,main{
     display: inline-block;
 }
 /* inizio header  */
-header,nav{
-    padding: 15px;
-}
 header{
+    padding: 15px;
     margin-bottom: 50px;
 }
 .title{
@@ -54,6 +52,17 @@ main{
     width: 80%;
     margin: auto;
 }
+/* nav  */
+nav{
+    padding: 10px 50px;
+    border-bottom: 1px rgb(176, 176, 176) solid;;
+}
 main nav button{
-
+padding: 5px;
+border:1px rgb(176, 176, 176) solid;
+border-radius: 10px;
+background-color: #fff;
+}
+section{
+    margin: 30px 50px 0 50px;
 }
